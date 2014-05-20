@@ -1,7 +1,7 @@
 (function(window, undefined){
     window.Request = {};
 
-    Request.get = function(){
+    Request.get = function(url, data, callback, type){
 
     }
 
@@ -16,4 +16,6 @@
     Request.ajax = function(){
         
     }
+
+    Request.xhr = 
 })(window, undefined)
